@@ -1,5 +1,6 @@
 .title {
-    width: 100vw;
+    width: 80vw;
+    margin: 0 auto;
     height: 100vh;
 
     display: flex;
@@ -12,7 +13,7 @@
 
     color: #fff;
 
-    font-size: 32px;
+    font-size: min(32px, 5vw);
 
     iframe {
         width: 80vw;
@@ -34,7 +35,8 @@
     }
 
     .logo {
-        height: 4em;
+        max-width: 840px;
+        width: 80vw;
         image-rendering: pixelated;
     }
 

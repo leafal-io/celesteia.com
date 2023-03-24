@@ -13,7 +13,7 @@ body {
 }
 
 button {
-    font-size: 32px;
+    font-size: inherit;
     border: 16px solid transparent;
     border-image-source: url("/images/button.png");
     border-image-slice: 4 fill;

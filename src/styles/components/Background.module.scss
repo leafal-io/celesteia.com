@@ -1,9 +1,9 @@
 .element {
-    width: 140vw;
-    height: 140vw;
+    width: 140vmax;
+    height: 140vmax;
     position: absolute;
-    left: -70vw;
-    top: -70vw;
+    left: -70vmax;
+    top: -70vmax;
     transform-origin: center;
     background-size: cover;
     image-rendering: pixelated;
