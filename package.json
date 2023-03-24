@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
-    "start": "solid-start start"
+    "start": "solid-start start",
+    "lint": "eslint . --ext ts --ext tsx --ext js --ext jsx --ext json --ext html --max-warnings 0",
+    "ts": "tsc --watch",
+    "clean": "rm -rf .solid dist functions node_modules"
   },
   "type": "module",
   "devDependencies": {
@@ -11,6 +14,7 @@
     "esbuild": "^0.14.54",
     "postcss": "^8.4.21",
     "sass": "^1.60.0",
+    "solid-start-cloudflare-pages": "^0.2.23",
     "solid-start-node": "^0.2.19",
     "typescript": "^4.9.4",
     "vite": "^4.1.4"
