@@ -14,6 +14,25 @@
 
     font-size: 32px;
 
+    iframe {
+        width: 80vw;
+        max-width: 640px;
+        aspect-ratio: 16 / 9;
+        image-rendering: pixelated;
+        border: 16px solid transparent;
+        border-image-source: url("/images/window.png");
+        border-image-slice: 4 fill;
+        border-image-width: 16px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .5em;
+    }
+
     .logo {
         height: 4em;
         image-rendering: pixelated;
@@ -21,7 +40,6 @@
 
     .play {
         display: flex;
-        margin-top: 3em;
         justify-content: center;
         align-items: center;
         gap: .5em;

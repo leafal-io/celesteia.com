@@ -14,14 +14,14 @@ body {
 
 button {
     font-size: 32px;
+    border: 16px solid transparent;
     border-image-source: url("/images/button.png");
     border-image-slice: 4 fill;
     border-image-width: 16px;
-    padding: 0 1em;
-    min-height: 64px;
     image-rendering: pixelated;
     background-color: transparent;
     font-family: "Hobo";
+    padding: 0 .5em;
     color: #fff;
     cursor: pointer;
 
