@@ -11,8 +11,18 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
     "esbuild": "^0.14.54",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-only-error": "^1.0.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-solid": "^0.11.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
     "sass": "^1.60.0",
     "solid-start-cloudflare-pages": "^0.2.23",
     "solid-start-node": "^0.2.19",
@@ -22,6 +32,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.1",
+    "prettier-plugin-organize-imports": "^3.2.2",
     "solid-js": "^1.6.11",
     "solid-start": "^0.2.23",
     "undici": "^5.15.1"
