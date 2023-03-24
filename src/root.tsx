@@ -1,12 +1,12 @@
 // @refresh reload
 import { Suspense } from 'solid-js';
 import {
-    A,
     Body,
     ErrorBoundary,
     FileRoutes,
     Head,
     Html,
+    Link,
     Meta,
     Routes,
     Scripts,
@@ -23,6 +23,17 @@ export default function Root() {
                 <Meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
+                />
+                <Link rel="preload" as="image" href="/images/button.png" />
+                <Link
+                    rel="preload"
+                    as="image"
+                    href="/images/button-hover.png"
+                />
+                <Link
+                    rel="preload"
+                    as="image"
+                    href="/images/button-active.png"
                 />
             </Head>
             <Body>
