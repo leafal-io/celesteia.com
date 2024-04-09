@@ -7,15 +7,6 @@ export function TitleScreen() {
                 <img class={styles.logo} src="/images/logo.png" />
             </div>
 
-            <div class={styles.showcase}>
-                <video
-                    src="/video/gameplay.mp4"
-                    autoplay
-                    controls
-                >
-                </video>
-            </div>
-
             <div class={styles.play}>
                 <a href="https://github.com/leafal-io/celesteia/releases/latest">
                     <button>Download the latest version</button>
