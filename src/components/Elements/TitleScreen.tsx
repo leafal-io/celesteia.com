@@ -8,11 +8,12 @@ export function TitleScreen() {
             </div>
 
             <div class={styles.showcase}>
-                <iframe
-                    src="https://www.youtube.com/embed/BLnrp-1Y1iw"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                />
+                <video
+                    src="/video/gameplay.mp4"
+                    autoplay
+                    controls
+                >
+                </video>
             </div>
 
             <div class={styles.play}>
